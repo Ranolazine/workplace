@@ -11,11 +11,11 @@ int main()
 	char c = 'a';
 	int x = isdigit(c);
 	int y = isdigit(c);
-	cout<<x<<'\t'<<y;
-	
+	cout << x << '\t' << y;
+
 
 
 	std::cout << "\nPress ENTER to continue...";
- 	std::cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
- 	return 0;
+	std::cin.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
+	return 0;
 }
