@@ -5,20 +5,20 @@
 #include <iostream>
 #include <string>
 #include <limits>
-//how to use class 	7.07
+//how to use virtual 	7.07
 
 using namespace std;
 
 class A
 {
 public:
-	virtual void Print(){cout<<'A'<<endl;}
+	virtual void Print() {cout << 'A' << endl;}
 };
 
 class B: public A
 {
 public:
-	virtual void Print(){cout<<'B'<<endl;}
+	virtual void Print() {cout << 'B' << endl;}
 };
 
 void PrintInfo(A & r)
@@ -27,7 +27,7 @@ void PrintInfo(A & r)
 }
 int main()
 {
-	A a;B b;
+	A a; B b;
 	PrintInfo(a);
 	PrintInfo(b);
 
